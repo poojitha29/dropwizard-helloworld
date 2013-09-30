@@ -8,7 +8,7 @@ How the deployer works?
  
  *------------*
 | deployer.sh | 1.Run Deployer
- *------*------*
+ *------------*
       |  
       V
  -------------             3.HTTP POST                   ---------------------    2.git push origin master    o
@@ -25,7 +25,7 @@ How the deployer works?
 stop.sh 
 --get the current running java process PID from /tmp/app.pid
 --kill -9 {PID}
-
+ls
 build.sh
 --git pull
 --mvn clean package
