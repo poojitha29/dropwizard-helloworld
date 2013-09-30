@@ -6,9 +6,9 @@ How the deployer works?
 
 
  
- ------------
+ ------**------
 | deployer.sh | 1.Run Deployer
- ------------
+ ------**------
       |  
       V
  -------------             3.HTTP POST                   ---------------------    2.git push origin master    o
